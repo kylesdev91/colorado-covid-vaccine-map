@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-     <l-map v-model="zoom" v-model:zoom="zoom" :center="[39.02777480385033, -105.53715747829405]">
+     <l-map v-model="zoom" v-model:zoom="zoom" :center="[32.779167, -96.808891]">
       <l-tile-layer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       ></l-tile-layer>
